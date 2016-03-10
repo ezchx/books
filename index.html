@@ -1,0 +1,163 @@
+<html>
+
+  <head>
+    <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/bootstrap/3.3.1/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="books.css"/>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+    <script src="books.js"></script>
+    <title>Book Trader</title>
+  </head>
+
+  <body>
+
+    <div class="container">
+      <div class="row">
+        <p id="debug"></p>
+      </div>
+    </div>   
+    
+    
+    <div class="container">
+      <div class="row">
+        <div class="col-md-7">
+          <div class="menu" id="homeButton">Home</div>
+          <div class="menu" id="myBooksButton">My Books</div>
+          <div class="menu" id="otherBooksButton">Other Books</div>
+          <div class="menu" id="tradesButton">Trades</div>
+        </div>
+        <div class="col-md-5 righty">
+          <div class="menu" id="userUpdate"></div>
+          <div class="menu" id="loginButton"><a href="login.php?login=yes"><img src="http://ezchx.com/twitteroauth/sign-in-with-twitter-gray.png" /></a></div>
+        </div>
+      </div>
+    </div>
+      
+    <div class="row banner">
+      <div class="col-md-12">
+        <div class="main_head">Book Trader</div>
+      </div>
+      <div class="col-md-12">
+        <div class="sub_head">Read any good books lately?</div>
+      </div>
+    </div>
+    
+    <div id="home">
+      <div class="container images">
+        <div class="row">
+          <div class="col-md-4">
+            <img src="http://www.ezchx.com/books/tools-icon.png">
+          </div>
+          <div class="col-md-4">
+            <img src="http://www.ezchx.com/books/Mag-icon.png">
+          </div>
+          <div class="col-md-4">
+            <img src="http://www.ezchx.com/projects/social.png">
+          </div>
+        </div>
+      </div>
+         
+      <div class="container">
+        <div class="row">
+          <div class="col-md-4">
+            <div class="middle_head">Set-up</div>
+            <div class="main_text">Login with Twitter and enter your personal book collection.</div>
+          </div>
+          <div class="col-md-4">
+            <div class="middle_head">Browse</div>
+            <div class="main_text">View our entire library including books from other members.</div>
+          </div>
+          <div class="col-md-4">
+            <div class="middle_head">Trade</div>
+            <div class="main_text">Propose book trades with other members. Try it, it's  fun! </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    
+    <div id="user">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-12"><div class="titles">User Update</div></div>
+        </div>
+        <br><br>
+        <div class="row">
+          <div class="col-md-5"><div class="updateTags">Name</div></div><div class="col-md-2"><input type="text" id="name" class="updateBox"></input></div>
+        </div>
+        <div class="row">
+          <div class="col-md-5"><div class="updateTags">Street</div></div><div class="col-md-2"><input type="text" id="street" class="updateBox"></input></div>
+        </div>
+        <div class="row">
+          <div class="col-md-5"><div class="updateTags">City</div></div><div class="col-md-2"><input type="text" id="city" class="updateBox"></input></div>
+        </div>
+        <div class="row">
+          <div class="col-md-5"><div class="updateTags">State</div></div><div class="col-md-2"><input type="text" id="state" class="updateBox"></input></div>
+        </div>
+        <div class="row">
+          <div class="col-md-5"><div class="updateTags">Zip</div></div><div class="col-md-2"><input type="text" id="zip" class="updateBox"></input></div>
+        </div>
+        <div class="row">
+          <div class="col-md-12 buttony"><button type="button" class="btn-sm btn-success" id="updateUserInfo">Update</button></div>
+        </div>
+      </div>
+    </div>
+
+    
+    <div id="myBooks">
+      <div class="container">
+        
+        <div class="row">
+          <div class="col-md-12"><div class="titles">My Books</div></div>
+        </div>
+        
+
+        <div class="row">
+          <div class="col-md-12 centery">
+            <div id="booksHtml"></div>
+          </div>
+        </div>
+
+      </div>
+    </div>
+
+
+    <div id="otherBooks">
+      <div class="container">
+        
+        <div class="row">
+          <div class="col-md-12"><div class="titles">Other Books</div></div>
+        </div>
+        
+        <div class="row">
+          <div class="col-md-12 centery">
+            <div id="otherTradeMsg"></div>
+            <div id="otherBooksHtml"></div>
+          </div>
+        </div>
+
+      </div>
+    </div>
+
+
+    <div id="trades">
+      <div class="container">
+        
+        <div id="myPendingTrades"></div>
+          
+        <div id="otherPendingTrades"></div>
+
+      </div>
+    </div>
+
+
+    
+
+    <div class="container footer">
+      <div class="row">2016 
+        <a href="https://twitter.com/ezchx" target="_blank" class="footerLink">@ezchx</a>
+      </div>
+    </div>
+    
+  </body>
+
+</html>

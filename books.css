@@ -1,0 +1,142 @@
+html {
+  overflow-y: scroll;
+}
+
+.menu {
+  height: 25px;
+  display: inline-block;
+  padding-left: 15px;
+  padding-right: 30px;
+  margin-top: 20px;
+  margin-bottom: 25px;
+  font-size: 20px;
+  color: #808080;
+}
+
+.menu:hover, #gear, #loginButton {
+  cursor: pointer;
+  color: #C0C0C0;
+}
+
+#userUpdate {
+  display: inline-block;
+  text-align: right;
+  vertical-align: top;
+}
+
+.righty {
+  text-align: right;
+}
+
+.centery {
+  text-align: center;
+}
+
+.banner {
+  background-color: #4393B9;
+  height: 175px;
+  padding-top: 20px;
+  text-align: center;
+  color: #FFFFFF; 
+}
+
+.main_head {
+  font-size: 50px;
+}
+
+.sub_head {
+  padding-top: 10px;
+  padding-bottom: 30px;
+  font-size: 25px;
+}
+
+.images {
+  text-align: center;
+  margin-top: 100px;
+}
+
+.middle_head {
+  margin-top: 10px;
+  margin-bottom: 10px;
+  font-size: 40px;
+  text-align: center;
+}
+
+.main_text {
+  text-align: justify;
+  padding-left: 10px;
+  padding-right: 10px;
+  font-size: 18px;
+  height: 150px;
+}
+
+.titles {
+  text-align: center;
+  font-size: 35px;
+  margin-top: 25px;
+  margin-bottom: 0px;
+}
+
+#user {
+  margin-top: 25px;
+  margin-bottom: 50px;
+  height: 402px;
+}
+
+.updateTags {
+  text-align: right;
+  margin-bottom: 15px;
+}
+
+.updateBox {
+  text-align: left;
+  margin-left: 20px;
+  padding-left: 5px;
+}
+
+.buttony {
+  margin-top: 35px;
+  text-align: center;
+}
+
+.bookButton {
+  margin-top: 10px;
+}
+
+.books {
+  display: inline-block;
+  margin-left: 35px;
+  margin-right: 35px;
+  margin-top: 50px;
+  margin-bottom: 50px; 
+}
+
+#errorMsg {
+  color: #FF0000;
+}
+
+#otherTradeMsg {
+  color: #FF0000;
+  margin-top: 10px;
+  margin-bottom: 0px;
+  font-size: 25px;
+}
+
+.spacey {
+  margin-right: 50px;
+}
+
+
+.footer {
+  border-top: solid 1px #c0c0c0;
+  text-align: center;
+  font-size: 16px;
+  color: #808080;
+  padding-top: 20px;
+  margin-top: 50px;
+  margin-bottom: 20px;
+}
+
+.footerLink {
+  color: #808080;
+}
